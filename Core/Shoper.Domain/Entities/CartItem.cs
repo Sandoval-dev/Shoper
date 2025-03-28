@@ -6,15 +6,15 @@ using System.Threading.Tasks;
 
 namespace Shoper.Domain.Entities
 {
-    public class OrderItem
+    public class CartItem
     {
-        public int OrderItemId { get; set; }
-        public int OrderId { get; set; }
-        //public Order Order { get; set; }
+        public int CartItemId { get; set; }
+        public int CartId { get; set; }
         public int ProductId { get; set; }
-        //public Products Product { get; set; }
+
+        //public Products Products { get; set; }
         public int Quantity { get; set; }
-        public decimal TotalPrice { get; set; }
+        public int TotalPrice { get; set; }
 
     }
 }

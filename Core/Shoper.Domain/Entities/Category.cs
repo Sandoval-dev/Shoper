@@ -10,7 +10,6 @@ namespace Shoper.Domain.Entities
     {
         public int CategoryId { get; set; }
         public string CategoryName { get; set; }
-        //public ICollection<Products> Products { get; set; }
 
     }
 }

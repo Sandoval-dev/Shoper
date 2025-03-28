@@ -10,9 +10,4 @@
     <ProjectReference Include="..\Shoper.Domain\Shoper.Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Usecasess\ProductServices\" />
-    <Folder Include="Usecasess\OrderItemServices\" />
-  </ItemGroup>
-
 </Project>
